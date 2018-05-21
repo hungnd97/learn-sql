@@ -1,2 +1,31 @@
 # Báo cáo ngày 21/05/2018 
-## ## SQL: đã thực hành bài 1.1 (nguồn Funix)
+## SQL: đã thực hành bài 1.1 (nguồn Funix)
+### 1. Để tương tác với data có thể khái quát chung bởi 4 phương thức khác nhau: CRUD
+```
+- Creat (khởi tạo)
+- Read (truy vấn)
+- Update (thêm sửa)
+- Delete (xoá)
+```
+### 2. Database quan hệ là gì?
+```
+- Database quan hệ lưu trữ data dưới dạng bảng và một bảng là mảng hai chiều của data, bao gồm các cột và các dòng
+- Database quan hệ quy ước cột thể hiện cho các thuộc tính của đối tượng và dòng thể hiện cho thực thể của đối tượng
+```
+### 3. Database không chỉ lưu trữ data nó còn đưa ra định nghĩa cấu trúc của data.
+```
+- Database cũng có data mô tả data(metadata). Và metadata là data để mô tả các data khác.
+Ví dụ: muốn lấy 1 mã SV là một số nguyên. Trong trường hợp mã SV đó là số nguyên thì ID của SV đó là metadata. -> Database cho phép ta kết nối giữa các table vs nhau và các table kết nối vs nhau dựa trên mối quan hệ mà ta thiết lập.
+```
+### 4. Một số loại data khác nhau trong database
+```
+- Hệ thống database cá nhân(personnal database system)
++ Nó là 1 database nhỏ
++ Chỉ sử dụng 1 user duy nhất trong cùng 1 thời điểm
++ Nó không phức tạp, thiết kế đơn giản và chỉ hỗ trợ cho các nghiệp vụ nhỏ
+- Hệ thống database dành cho doanh nghiệp (Enterprise-Level)
++ Hỗ trợ nghiệp vụ trung bình hoặc lớn
++ Hỗ trợ nhiều user sử dụng cùng 1 thời điểm (hàng nghìn, hàng vạn user cùng 1 lúc)
++ Cung cấp data cho nhiều ứng dụng
++ Có nhiều hệ thống database có thể cùng chạy một lúc và các phần database có thể đặt ở nhiều nơi
+```
